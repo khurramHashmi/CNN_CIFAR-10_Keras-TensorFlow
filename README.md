@@ -1,5 +1,5 @@
 # CNN_CIFAR-10_Keras-TensorFlow
-This repository is created solely for the intention of playing around with CIFAR10 dataset using different architectures to achieve optimal performance. In order to achieve better accuracy, the dataset has been augmented as well as regularized. Code is quite trivial because Keras has been mainly used. 
+This repository is created solely for the intention of playing around with CIFAR10 dataset using different architectures to achieve optimal performance. In order to achieve better accuracy, the dataset has been augmented as well as regularized. Code is quite trivial because Keras has been mainly used. The result achieved using the current network is almost 89% on 125 epochs.
 
 ## Usage
 It's a simple python notebook executed on Google Collab. Feel free to use it as a base network and play around.
