@@ -1,31 +1,21 @@
 # CNN_CIFAR-10_Keras-TensorFlow
-This repository is created solely for the intention of playing around with CIFAR10 dataset using different architectures to achieve optimal performance.
-# Foobar
-
-Foobar is a Python library for dealing with word pluralization.
-
-## Installation
-
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
-
-```bash
-pip install foobar
-```
+This repository is created solely for the intention of playing around with CIFAR10 dataset using different architectures to achieve optimal performance. In order to achieve better accuracy, the dataset has been augmented as well as regularized. Code is quite trivial because Keras has been mainly used. 
 
 ## Usage
+It's a simple python notebook executed on Google Collab. Feel free to use it as a base network and play around.
+Happy Coding :)
 
-```python
-import foobar
 
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
-```
+## Prerequisites
+-TensorFlow
+-Keras
+
+
+
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-Please make sure to update tests as appropriate.
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+## Acknowledgement
+Inspiration and direction has been taken from the following blog :
+https://appliedmachinelearning.blog/2018/03/24/achieving-90-accuracy-in-object-recognition-task-on-cifar-10-dataset-with-keras-convolutional-neural-networks/
